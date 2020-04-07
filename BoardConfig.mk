@@ -52,4 +52,4 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 VENDOR_SECURITY_PATCH := 2018-11-01
 
 # Inherit the proprietary files
--include vendor/xiaomi/whyred/BoardConfigVendor.mk
+-include vendor/xiaomi/whyred/whyred/BoardConfigVendor.mk
