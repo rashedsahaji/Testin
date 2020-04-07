@@ -37,6 +37,7 @@ BOARD_HAS_QCA_FM_SOC := cherokee
 BOARD_HAVE_QCOM_FM := true
 
 # Kernel
+TARGET_KERNEL_SOURCE := kernel/xiaomi/whyred
 TARGET_KERNEL_CONFIG := whyred_defconfig
 
 # Manifest
